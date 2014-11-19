@@ -71,6 +71,13 @@ BOARD_VOLD_MAX_PARTITIONS := 36
 #BOARD_HAVE_QCOM_FM := true
 #COMMON_GLOBAL_CFLAGS += -DQCOM_FM_ENABLED
 
+# WiFi
+PRODUCT_PACKAGES += \
+    dhcpcd.conf \
+    hostapd \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
 # GPS
 BOARD_USES_QCOM_GPS := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
