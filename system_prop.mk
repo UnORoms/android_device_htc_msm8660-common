@@ -6,3 +6,4 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=rmnet0 \
     rild.libpath=/system/lib/libhtc_ril.so \
+    ro.telephony.ril_class=HtcMsm8660RIL \

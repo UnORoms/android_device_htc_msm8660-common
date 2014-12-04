@@ -85,6 +85,9 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 BOARD_EGL_CFG := device/htc/msm8660-common/configs/egl.cfg
 TARGET_DISPLAY_INSECURE_MM_HEAP := true
 
+# Ril
+BOARD_RIL_CLASS := ../../../device/htc/msm8660-common/ril
+
 # Use CM PowerHAL
 TARGET_POWERHAL_VARIANT := cm
 
