@@ -143,3 +143,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     camera.msm8660
 
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
