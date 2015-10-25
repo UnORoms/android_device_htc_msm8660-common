@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
     frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml
 
+# Qcom
+PRODUCT_PACKAGES += \
+    libstlport
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
