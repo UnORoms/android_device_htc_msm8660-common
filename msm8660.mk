@@ -36,9 +36,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
     frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml
 
-# Htc Symbols
+# Htc Support
 PRODUCT_PACKAGES += \
-    libhtc_symbols
+    libhtc_symbols \
+    libold
 
 # Qcom
 PRODUCT_PACKAGES += \
