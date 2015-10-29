@@ -94,6 +94,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
+# IPv6 tethering
+PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes
+
 # WiFi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
