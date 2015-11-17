@@ -152,7 +152,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera wrapper
 PRODUCT_PACKAGES += \
-    camera.msm8660
+    camera.msm8660 \
+    libshim_camera
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
