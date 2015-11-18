@@ -91,7 +91,6 @@ TARGET_DISPLAY_INSECURE_MM_HEAP := true
 
 # Ril
 BOARD_RIL_CLASS := ../../../device/htc/msm8660-common/ril
-TARGET_RIL_VARIANT := caf
 
 # Use CM PowerHAL
 TARGET_POWERHAL_VARIANT := cm
